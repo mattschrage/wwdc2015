@@ -14,6 +14,13 @@
 		75C407A21AE881E80030E3BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C407A11AE881E80030E3BB /* Images.xcassets */; };
 		75C407A51AE881E80030E3BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C407A31AE881E80030E3BB /* LaunchScreen.xib */; };
 		75C407B11AE881E80030E3BB /* MattSchrage2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C407B01AE881E80030E3BB /* MattSchrage2Tests.m */; };
+		75C407BC1AE9F8280030E3BB /* MSDynamicWallpaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C407BB1AE9F8280030E3BB /* MSDynamicWallpaperViewController.m */; };
+		75C407BF1AE9F8A90030E3BB /* MSDynamicDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C407BE1AE9F8A90030E3BB /* MSDynamicDot.m */; };
+		75C407C11AEA122E0030E3BB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C407C01AEA122E0030E3BB /* CoreMotion.framework */; };
+		75C407C41AEAAF530030E3BB /* MSIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C407C31AEAAF530030E3BB /* MSIntroductionViewController.m */; };
+		75C407CD1AEAB0BD0030E3BB /* MSCircularSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C407CC1AEAB0BD0030E3BB /* MSCircularSelector.m */; };
+		75C407CF1AEAB1500030E3BB /* matt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C407CE1AEAB1500030E3BB /* matt@2x.png */; };
+		75C407D41AED90D50030E3BB /* MSInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C407D31AED90D50030E3BB /* MSInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,18 @@
 		75C407AA1AE881E80030E3BB /* MattSchrage2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MattSchrage2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C407AF1AE881E80030E3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75C407B01AE881E80030E3BB /* MattSchrage2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MattSchrage2Tests.m; sourceTree = "<group>"; };
+		75C407BA1AE9F8280030E3BB /* MSDynamicWallpaperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDynamicWallpaperViewController.h; sourceTree = "<group>"; };
+		75C407BB1AE9F8280030E3BB /* MSDynamicWallpaperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDynamicWallpaperViewController.m; sourceTree = "<group>"; };
+		75C407BD1AE9F8A90030E3BB /* MSDynamicDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDynamicDot.h; sourceTree = "<group>"; };
+		75C407BE1AE9F8A90030E3BB /* MSDynamicDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDynamicDot.m; sourceTree = "<group>"; };
+		75C407C01AEA122E0030E3BB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		75C407C21AEAAF530030E3BB /* MSIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSIntroductionViewController.h; sourceTree = "<group>"; };
+		75C407C31AEAAF530030E3BB /* MSIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSIntroductionViewController.m; sourceTree = "<group>"; };
+		75C407CB1AEAB0BD0030E3BB /* MSCircularSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCircularSelector.h; path = ../MSCircularSelector.h; sourceTree = "<group>"; };
+		75C407CC1AEAB0BD0030E3BB /* MSCircularSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCircularSelector.m; path = ../MSCircularSelector.m; sourceTree = "<group>"; };
+		75C407CE1AEAB1500030E3BB /* matt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "matt@2x.png"; sourceTree = "<group>"; };
+		75C407D01AEABE820030E3BB /* MattSchrage2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MattSchrage2-Bridging-Header.h"; sourceTree = "<group>"; };
+		75C407D31AED90D50030E3BB /* MSInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSInformationView.swift; path = ../MSInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C407C11AEA122E0030E3BB /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 		75C407881AE881E80030E3BB = {
 			isa = PBXGroup;
 			children = (
+				75C407C01AEA122E0030E3BB /* CoreMotion.framework */,
 				75C407931AE881E80030E3BB /* MattSchrage2 */,
 				75C407AD1AE881E80030E3BB /* MattSchrage2Tests */,
 				75C407921AE881E80030E3BB /* Products */,
@@ -85,10 +106,20 @@
 				75C407991AE881E80030E3BB /* AppDelegate.m */,
 				75C4079B1AE881E80030E3BB /* ViewController.h */,
 				75C4079C1AE881E80030E3BB /* ViewController.m */,
+				75C407BA1AE9F8280030E3BB /* MSDynamicWallpaperViewController.h */,
+				75C407BB1AE9F8280030E3BB /* MSDynamicWallpaperViewController.m */,
+				75C407C21AEAAF530030E3BB /* MSIntroductionViewController.h */,
+				75C407C31AEAAF530030E3BB /* MSIntroductionViewController.m */,
+				75C407BD1AE9F8A90030E3BB /* MSDynamicDot.h */,
+				75C407BE1AE9F8A90030E3BB /* MSDynamicDot.m */,
+				75C407CB1AEAB0BD0030E3BB /* MSCircularSelector.h */,
+				75C407CC1AEAB0BD0030E3BB /* MSCircularSelector.m */,
+				75C407D31AED90D50030E3BB /* MSInformationView.swift */,
 				75C4079E1AE881E80030E3BB /* Main.storyboard */,
 				75C407A11AE881E80030E3BB /* Images.xcassets */,
 				75C407A31AE881E80030E3BB /* LaunchScreen.xib */,
 				75C407941AE881E80030E3BB /* Supporting Files */,
+				75C407D01AEABE820030E3BB /* MattSchrage2-Bridging-Header.h */,
 			);
 			path = MattSchrage2;
 			sourceTree = "<group>";
@@ -96,6 +127,7 @@
 		75C407941AE881E80030E3BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75C407CE1AEAB1500030E3BB /* matt@2x.png */,
 				75C407951AE881E80030E3BB /* Info.plist */,
 				75C407961AE881E80030E3BB /* main.m */,
 			);
@@ -163,14 +195,20 @@
 		75C407891AE881E80030E3BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Matt Schrage";
 				TargetAttributes = {
 					75C407901AE881E80030E3BB = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = D93PPD94WK;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					75C407A91AE881E80030E3BB = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = D93PPD94WK;
 						TestTargetID = 75C407901AE881E80030E3BB;
 					};
 				};
@@ -201,6 +239,7 @@
 			files = (
 				75C407A01AE881E80030E3BB /* Main.storyboard in Resources */,
 				75C407A51AE881E80030E3BB /* LaunchScreen.xib in Resources */,
+				75C407CF1AEAB1500030E3BB /* matt@2x.png in Resources */,
 				75C407A21AE881E80030E3BB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +259,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75C4079D1AE881E80030E3BB /* ViewController.m in Sources */,
+				75C407BF1AE9F8A90030E3BB /* MSDynamicDot.m in Sources */,
+				75C407CD1AEAB0BD0030E3BB /* MSCircularSelector.m in Sources */,
+				75C407D41AED90D50030E3BB /* MSInformationView.swift in Sources */,
+				75C407C41AEAAF530030E3BB /* MSIntroductionViewController.m in Sources */,
+				75C407BC1AE9F8280030E3BB /* MSDynamicWallpaperViewController.m in Sources */,
 				75C4079A1AE881E80030E3BB /* AppDelegate.m in Sources */,
 				75C407971AE881E80030E3BB /* main.m in Sources */,
 			);
@@ -276,15 +320,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -317,8 +365,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -326,6 +376,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -335,6 +386,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -343,9 +395,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Eliot Schrage (6A9RX75NVJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D93PPD94WK;
 				INFOPLIST_FILE = MattSchrage2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattschrage.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MattSchrage2/MattSchrage2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -353,9 +415,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Eliot Schrage (6A9RX75NVJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D93PPD94WK;
 				INFOPLIST_FILE = MattSchrage2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattschrage.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MattSchrage2/MattSchrage2-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -363,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D93PPD94WK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -373,6 +445,7 @@
 				);
 				INFOPLIST_FILE = MattSchrage2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattschrage.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MattSchrage2.app/MattSchrage2";
 			};
@@ -382,12 +455,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D93PPD94WK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MattSchrage2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattschrage.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MattSchrage2.app/MattSchrage2";
 			};
@@ -412,6 +487,7 @@
 				75C407B61AE881E80030E3BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75C407B71AE881E80030E3BB /* Build configuration list for PBXNativeTarget "MattSchrage2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +496,7 @@
 				75C407B91AE881E80030E3BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
